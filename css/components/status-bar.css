@@ -1,0 +1,15 @@
+.status-bar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100vw;
+}
+.status-bar__column {
+  margin-right: 30px;
+  font-weight: 600;
+  color: black;
+}
+.status-bar__column:last-child i:last-child {
+  transform: translateY(-2px);
+}
