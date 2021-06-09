@@ -1,0 +1,25 @@
+.main-header {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10px;
+  align-items: center;
+  color: black;
+  justify-items: center;
+}
+.main-header__title {
+  display: flex;
+  font-weight: 600;
+  font-size: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header__icons {
+  align-items: center;
+  font-size: 17px;
+}
+
+.main-header__icons:last-child {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+}
