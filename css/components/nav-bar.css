@@ -4,14 +4,16 @@
   bottom: 0px;
   width: 100vw;
   background-color: #f9f9fa;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
-  margin-right: 50px;
-  margin-left: 10px;
+  margin: 0px 55px 15px 55px;
+  padding-top: 17px;
   list-style: none;
 }
-.nav__btn {
+.nav__btn a {
+  color: rgba(0, 0, 0, 0.7);
 }
