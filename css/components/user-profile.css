@@ -28,7 +28,7 @@
   color: rgba(0, 0, 0, 0.4);
   font-size: 15px;
   padding-top: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: var(--horizontal-line);
 }
 .user-profile-channel__header__column {
   font-weight: 600;

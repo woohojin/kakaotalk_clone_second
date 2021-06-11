@@ -26,37 +26,83 @@
 
     <div class="main-header">
       <div class="main-header__title">
-        <span>Chats</span>
+        <span>Find</span>
       </div>
       <div class="main-header__icons">
         <i class="fas fa-search fa-lg"></i>
       </div>
       <div class="main-header__icons">
-        <i class="fas fa-music fa-lg"></i>
-      </div>
-      <div class="main-header__icons">
         <i class="fas fa-cog fa-lg"></i>
-      </div>
-    </div>
-  </body>
-
-  <div class="user-profile user-profile__chats">
-    <div class="user-profile__image">
-      <img src="img/nicolas.jpg" />
-    </div>
-    <div class="user-profile__column">
-      <div class="user-profile__column__title">Nicolas</div>
-      <div class="user-profile__column__subtitle">Please check My Kakao Account Info</div>
-    </div>
-    <div class="user-profile__component">
-      <div class="user-profile__time">21:22</div>
-      <div class="chats-badge">
-        <div class="chats-badge__body">
-          <div class="chats-badge__body__text">1</div>
+        <div class="settings-badge">
+          <div class="settings-badge__body"></div>
         </div>
       </div>
     </div>
-  </div>
+
+    <div class="find-header">
+      <div class="find-header__icons">
+        <div class="find-header__icons__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+        </div>
+        <div class="find-header__icons__icon">
+          <i class="far fa-address-book fa-2x"></i>
+        </div>
+        <div class="find-header__icons__icon">
+          <i class="far fa-id-badge fa-2x"></i>
+        </div>
+        <div class="find-header__icons__icon">
+          <i class="far fa-envelope fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="find-header__column">
+        <div class="find-header__column__text">QR Code</div>
+        <div class="find-header__column__text">Add by<br />Contacts</div>
+        <div class="find-header__column__text">Add by ID</div>
+        <div class="find-header__column__text">Invite</div>
+      </div>
+    </div>
+
+    <div class="find-recommend">
+      <div class="find-recommend__header">
+        <div class="find-recommend__header__title">Recommended Friends</div>
+      </div>
+      <div class="find-recommend__body">
+        <div class="find-recommend__body__column">You have no recommended friends.</div>
+      </div>
+    </div>
+
+    <div class="open-chat">
+      <div class="open-chat__header">
+        <div class="open-chat__header__column">Open Chat</div>
+        <div class="open-chat__header__column">Go to Openchat Home</div>
+        <div class="open-chat__header__icon">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="open-chat__body">
+        <div class="open-chat__body__column">
+          <div class="open-chat__body__column__hash">
+            <div class="open-chat__body__column__hash__title">#Nicolas</div>
+            <div class="open-chat__body__column__hash__subtitle">#Nomad#Html5#CSS3</div>
+          </div>
+          <div class="open-chat__body__column__members">
+            <div class="open-chat__body__column__members__image">
+              <img src="img/nicolas.jpg" />
+            </div>
+            <div class="open-chat__body__column__members__text">802 members</div>
+            <div class="open-chat__body__column__members__divide"></div>
+            <div class="open-chat__body__column__members__text">Active</div>
+          </div>
+        </div>
+        <div class="open-chat__profile">
+          <div class="open-chat__profile__image">
+            <img src="img/nicolas.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 
   <nav class="nav">
     <ul class="nav__list">
@@ -67,12 +113,7 @@
       </li>
       <li class="nav__btn">
         <a href="chats.html">
-          <i class="fas fa-comment fa-2x"></i>
-          <div class="nav-badge">
-            <div class="nav-badge__body">
-              <div class="nav-badge__body__text">1</div>
-            </div>
-          </div>
+          <i class="far fa-comment fa-2x"></i>
         </a>
       </li>
       <li class="nav__btn">
