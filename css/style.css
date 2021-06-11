@@ -4,11 +4,14 @@
 /*screens*/
 @import "screen/login-screen.css";
 @import "screen/friends-screen.css";
+@import "screen/chat-screen.css";
 
 /*components*/
 @import "components/status-bar.css";
 @import "components/main-header.css";
 @import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/user-profile.css";
 
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");

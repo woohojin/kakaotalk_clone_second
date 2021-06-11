@@ -17,3 +17,9 @@
 .nav__btn a {
   color: rgba(0, 0, 0, 0.7);
 }
+.nav li:nth-child(2) {
+  position: relative;
+}
+.nav li:last-child {
+  position: relative;
+}

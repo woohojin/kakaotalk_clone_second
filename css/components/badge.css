@@ -1,0 +1,50 @@
+.nav-badge {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.nav-badge__body {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  text-align: center;
+}
+.nav-badge__body__text {
+  margin-top: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-small-badge {
+  display: flex;
+  position: absolute;
+  bottom: 27px;
+  left: 30px;
+}
+.nav-small-badge__body {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ff6229;
+}
+.chats-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.chats-badge__body {
+  background-color: #ff6229;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  text-align: center;
+}
+.chats-badge__body__text {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5.5px;
+}
