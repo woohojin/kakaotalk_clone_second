@@ -3,7 +3,9 @@
   text-align: center;
 }
 .welcome-header__title {
-  font-size: 27px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 .welcome-header__text {
   font-weight: 600;
