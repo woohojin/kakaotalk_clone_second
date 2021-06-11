@@ -12,7 +12,7 @@
   height: 75px;
   border-radius: 30px;
 }
-.user-profile__column {
+.user-profile__column__title {
   display: flex;
   font-weight: 600;
   font-size: 22px;
