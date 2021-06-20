@@ -6,6 +6,7 @@
 @import "screen/friends-screen.css";
 @import "screen/chat-screen.css";
 @import "screen/find-screen.css";
+@import "screen/more-screen.css";
 
 /*components*/
 @import "components/status-bar.css";

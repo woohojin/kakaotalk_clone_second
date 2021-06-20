@@ -12,12 +12,28 @@
   height: 75px;
   border-radius: 30px;
 }
-.user-profile__column__title {
+.user-profile__column {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-profile__column__title {
   font-weight: 600;
   font-size: 22px;
   color: black;
+}
+.more--profile {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.user-profile__icons {
+  display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.user-profile__icon {
+  font-size: 35px;
 }
 .user-profile-channel__header {
   display: flex;
