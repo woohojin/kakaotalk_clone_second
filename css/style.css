@@ -7,6 +7,7 @@
 @import "screen/chat-screen.css";
 @import "screen/find-screen.css";
 @import "screen/more-screen.css";
+@import "screen/signup-screen.css";
 
 /*components*/
 @import "components/status-bar.css";
